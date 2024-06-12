@@ -7,6 +7,7 @@ It appears that we are running our own operating system, but in reality everythi
 This OS supports multiple processes, each having their own virtual address space and can also be linked to standard library functions.
 
 I did not write the support software, and as such did not upload it to this repository. As a consequence, this OS will not compile, and have deleted the previous commits to prevent violating that. I have attached GIFs to demonstrate how this program works.
+![2024-06-11 21 41 37](https://github.com/boseongkim32/OS/assets/99345660/ca902577-37a0-491a-8eb7-aa36e26c52e1)
 
 The hardware invokes `KernelStart()` to boot the system, and when the function returns, the machine begins running in user-mode at a specified UserContext.
 
